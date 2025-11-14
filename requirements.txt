@@ -1,0 +1,20 @@
+# Core Deep Learning Framework
+torch>=2.0.0
+transformers>=4.55.0
+
+# Scientific Computing
+numpy>=1.17.0
+scikit-learn>=1.0.0
+
+# Progress Bars
+tqdm>=4.27.0
+
+# HuggingFace Hub (for model downloads)
+huggingface-hub>=0.34.0
+
+# Optional but recommended for better performance
+# safetensors>=0.4.3  # Already included with transformers
+# accelerate>=0.20.0  # For device_map='auto' if needed
+
+
+
